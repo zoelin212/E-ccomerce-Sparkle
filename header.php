@@ -7,9 +7,9 @@ if(!(isset($_SESSION['bag']))){
 }
     //Connect to the database
     $server = "localhost";
-    $database = "xsdud778_ecommerce";
-    $user = "xsdud778_ecommerce";
-    $pass = "ecommerce2022";
+    $database = "";
+    $user = "";
+    $pass = "";
 
     $connection = mysqli_connect($server,$user,$pass,$database);
 
